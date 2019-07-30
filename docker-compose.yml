@@ -12,6 +12,7 @@ services:
       - ${APP_SERVER_PORT}:${APP_SERVER_PORT}
     volumes:
       - ./backend/src:/srv/app/fullstack-server/src
+      - ./backend/node_modules
     command: yarn dev
 
   #### Client
