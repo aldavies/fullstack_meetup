@@ -15,37 +15,6 @@ body {
 
 }
 
-p {
-  font-family: 'Rubik',
-  sans-serif;
-}
 
-.main-site-navigation {
-  background-color: #3f1bb3;
-  padding: 20px;
-  width: 100vw;
-  display: flex;
-  justify-content: flex-end;
-}
 
-.nav-link {
-  color: #01a1c7;
-  margin-right: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all .3s ease-in-out;
 
-}
-
-.nav-link:hover {
-  color: white;
-  transform: scale(1.2);
-}
-
-.main-header {
-  text-align: center;
-}
-
-.about-page {
-  padding: 10px;
-}
